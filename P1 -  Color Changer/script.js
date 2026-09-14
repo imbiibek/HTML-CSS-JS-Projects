@@ -1,5 +1,14 @@
+function fibo(n) {
+  const fib = [0,1]
 
-let tweet = prompt('Write your tweet')
-const tweetLength = tweet.length;
-const charLeft = 140 - (tweetLength)
-console.log("You have written " + tweetLength + " characters, you have " + charLeft + " characters left ");
+for(let i=2; i<n; i++) {
+  fib[i] = fib[i-1] + fib[i-2]
+}
+
+return fib;
+
+}
+
+console.log(fibo(2));
+console.log(fibo(3));
+console.log(fibo(4));
