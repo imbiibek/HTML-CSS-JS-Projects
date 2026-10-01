@@ -1,10 +1,10 @@
+const GITHUB_API = 'https://randomuser.me/api/?inc=name&noinfo'
 
+const user = fetch(GITHUB_API)
 
-var x = 7;
-function getName()  {
-    console.log("Namaste Javascript");
-}
+console.log(user);
 
-getName();
-console.log(x);
-console.log(getName);
+user.then(function (data) {
+    console.log(data);
+    
+});
