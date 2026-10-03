@@ -1,10 +1,4 @@
-const GITHUB_API = 'https://randomuser.me/api/?inc=name&noinfo'
+import {randomSuperhero} from 'superheroes';
 
-const user = fetch(GITHUB_API)
-
-console.log(user);
-
-user.then(function (data) {
-    console.log(data);
-    
-});
+const name = randomSuperhero();
+console.log(`I am ${name}`);
