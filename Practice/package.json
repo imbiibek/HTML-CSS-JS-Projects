@@ -10,6 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@inquirer/prompts": "^8.7.2",
+    "qr-image": "^3.2.0",
     "sillyname": "^0.1.0",
     "superheroes": "^4.0.0"
   }
