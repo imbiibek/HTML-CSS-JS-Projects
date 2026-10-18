@@ -1,0 +1,11 @@
+* {
+    background-color: black;
+    margin: 0;
+}
+
+.circle {
+    background-color: rebeccapurple;
+    height: 100px;
+    width: 100px;
+    
+}
