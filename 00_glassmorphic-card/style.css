@@ -4,8 +4,46 @@
 }
 
 .circle {
-    background-color: rebeccapurple;
-    height: 100px;
-    width: 100px;
-    
+    border-radius: 100%;
+    position: absolute;
+}
+
+.circle-1 {
+    height: 120px;
+    width: 120px;
+    background-image: radial-gradient(
+    63.76% 63.76% at 50% 50%,
+    #ff00c7 0%,
+    #bd95ff 0.01%,
+    #a661ff 32.29%,
+    #6100ff 98.59%
+  );
+}
+
+.circle-2 {
+    height: 360px;
+    width: 360px;
+    background-image:  radial-gradient(
+    63.76% 63.76% at 50% 50%,
+    #ff00c7 0%,
+    #bd95ff 0.01%,
+    #a661ff 32.29%,
+    #6100ff 98.59%
+  );
+}
+
+.circle-3 {
+    height: 220px;
+    width: 220px;
+    background-image:  radial-gradient(
+    67.47% 67.47% at 50% 50%,
+    #fed0ff 0%,
+    #7f00ff 100%
+  );
+}
+
+.card {
+    height: 405px;
+    width: 520px;
+    background-color: rgba(255, 255, 255, 0.587);
 }
