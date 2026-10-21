@@ -1,0 +1,24 @@
+
+
+body {
+    text-align: center;
+}
+
+.number {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+button {
+    
+    background-color: blue;
+    color: white;
+    padding: 10px 16px;
+    border: 1px Solid grey; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+
