@@ -1,14 +1,11 @@
-const person = [
-    {name:"Bob", age:22},
-    {name:"sam", age:2},
-    {name:"hari", age:12},
-    {name:"ram", age:45},
-]
+const h1 = document.querySelector('h1')
+const card = document.querySelector('.card')
+const container = document.querySelector('.container')
 
-const asc = [...person].sort((a,b) => a.age - b.age)
-const dsc = person.sort((a,b) => b.age - a.age)
-
-
-console.log(asc);
-console.log(dsc);
-
+card.addEventListener('click', () => {
+    const newCard = document.createElement('div')
+    newCard.classList.add('card')
+    newCard.textContent = 'New card'
+    container.append(newCard);
+    
+})
