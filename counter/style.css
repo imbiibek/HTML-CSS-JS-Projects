@@ -4,8 +4,8 @@ body {
     text-align: center;
 }
 
-.number {
-    font-size: 70px;
+.count {
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -18,6 +18,13 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 1rem;
+}
+
+.changeBy {
+    height: 1rem;
+    width: 5rem;
+    font-size: 1rem;
+    margin: 20px
 }
 
 
