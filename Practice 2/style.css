@@ -1,18 +1,35 @@
-.red-circle {
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    position: absolute;
-    top: 150px;
-    left: 250px;
+.flag {
+    background-color: brown;
+    width: 900px;
+    height: 600px;
 }
 
-.blue-box {
-    background-color: blue;
-    height: 300px;
-    width: 500px;
+.circle {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 350px;
+}
+
+.flag > p {
+    font-size: 90px;
+    color: white;
     position: relative;
-    top: 200px;
-    left: 200px;
+    text-align: center;
+}
+
+.circle > p {
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: -40px;
+}
+
+.blue {
+    background-color: blue;
+    width: 900px;
+    height: 200px
 }
