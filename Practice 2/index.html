@@ -4,35 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agency</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <title>Column Layout Methods</title>
+  <style>
+    p {
+      padding: 0;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .container {
+      padding: 10px;
+      background-color: gold;
+      display: flex;
+      gap: 2rem;
+    }
+
+
+
+  </style>
 </head>
 
 <body>
-  <div class="main">
-    <img class="logo" src="./assets/images/logo.png" alt="logo">
-    <h1>We are a <span class="creative">Creative</span> <br/> Design Agency</h1>
-    <div class="left card"><img class="tile-image" src="./assets/images/beautiful.jpg" alt="hand and flower in water">
-      <h2 class="card-title">Beauty</h2>
-      <p class="card-text">We strive to create the most beautiful websites for all your needs. Working closely with you
-        to
-        design and
-        develop an amazing website for your business.</p>
-    </div>
+  <div class="container">
+    <p>Page Layout Methods</p>
 
-    <div class="right card"><img class="tile-image" src="./assets/images/construction.jpg" alt="metal structure">
-      <h2 class="card-title">Construction</h2>
-      <p>Built by our team of professional developers, we ensure the most rigourous and modern websites. Built from
-        scratch using HTML and CSS. Only the best for you.</p>
-    </div>
+    <li><a href="./html-table.html">HTML Table</a></li>
+    <li><a href="./inline-block.html">Inline-Block</li>
+    <li><a href="./absolute-position.html">Absolute Positioning</li>
+    <li><a href="./float.html">Float</li>
+    <li><a href="./flex.html">Flexbox</li>
 
   </div>
-  <footer>
-    <p>Create. Develop. Design.</p>
-  </footer>
 </body>
 
 </html>
